@@ -1,47 +1,47 @@
 class Presets(object):
     HELP_TEXT = """
-<b><u>Inline Tube Mate Help:</u></b>
+<b><u>Comandos:</u></b>
 <code>
-🔰 Send any image to set up a permanent thumbnail for the downloading videos.
+🔰 Envie qualquer imagem para configurar uma miniatura permanente para os vídeos de download.
 
-🔰 To delete the previously set thumbnail, select the</code> <b>/help</b> <code>and click on the delete button.
+🔰 Para excluir a miniatura definida anteriormente, selecione o botão</code> <b>/help</b> <code>e clique no botão Excluir.
 
-🔰 If no custom thumbnails are available, the default video thumbnail will be used in the downloading videos.
+🔰 Se nenhuma miniatura personalizada estiver disponível, a miniatura de vídeo padrão será usada nos vídeos de download.
 
-🔰 Search Inline or paste any YouTube URL to start the bot activity.
+🔰 Pesquise em linha ou cole qualquer URL do YouTube para iniciar a atividade do bot.
 
-🔰 SUDO USERS can broadcast the messages to all the users of the bot. Use:</code>
-<b>/subs</b><code> - to count subscribers</code>
-<b>/send</b><code>  - to broadcast (as reply)</code>
+🔰 SUDO USERS pode transmitir as mensagens para todos os usuários do bot. Use:</code>
+<b>/subs</b><code> - para contar assinantes</code>
+<b>/send</b><code>  - para transmitir (como resposta)</code>
 
-<b>Join:</b><a href='https://t.me/RMProjects'><b> Support</b></a> | Repo\
-<a href='https://github.com/m4mallu/inline-tube-mate'><b> LINK</b></a>   
+<b>Entre:</b><a href='https://t.me/botssaved'><b> Suporte</b></a> | Criado por\
+<a href='https://t.me/the_panda_official'><b> Criador</b></a>   
     """
 
-    OPTIONS_TXT = "<code>🔰 Select the option 🔰</code>"
-    WELCOME_MSG = "<code>Hello...</code><b>{}</b> 👋\n<code>I'm a YouTube downloader bot with lot's of features. " \
-                  "Search inline for videos and click to proceed for download.</code>"
-    RESULTS_TXT = "👀 Results:"
-    NO_RESULTS = "❌ No Results"
-    DESCRIPTION = "Duration: {} || {}"
-    NOT_AUTH_TXT = "<b>Error : </b>\n\n<code>You are not Authorized to use this bot.</code>"
-    DEFAULT_TITLE = "Inline Tube Mate Repository"
+    OPTIONS_TXT = "<code>🔰 Selecione a opção 🔰</code>"
+    WELCOME_MSG = "<code>Olá...</code><b>{}</b> 👋\n<code>Eu sou um bot downloader do YouTube com muitos recursos. " \
+                  "Pesquise vídeos embutidos e clique para prosseguir para o download.</code>"
+    RESULTS_TXT = "👀 Resultados:"
+    NO_RESULTS = "❌ Sem resultados"
+    DESCRIPTION = "Duração: {} || {}"
+    NOT_AUTH_TXT = "<b>Error : </b>\n\n<code>Você não está autorizado a usar este bot.</code>"
+    DEFAULT_TITLE = "Canal"
     DEFAULT_THUMB_URL = "https://image.flaticon.com/icons/png/512/25/25231.png"
-    DEFAULT_LINK = "https://github.com/m4mallu/inline-tube-mate"
-    DEFAULT_DESCRIPTION = "Link: M4mallu | GitHub"
-    DEV_TITLE = "Developer Information"
+    DEFAULT_LINK = "https://t.me/botssaved"
+    DEFAULT_DESCRIPTION = "Link: Canal | Criador"
+    DEV_TITLE = "Informações do desenvolvedor"
     DEV_THUMB_URL = "https://freepikpsd.com/media/2019/10/software-developer-icon-png-2-Transparent-Images.png"
-    DEV_LINK = "https://t.me/space4renjith"
-    DEV_DESCRIPTION = "Name: Renjith Mangal | Telegram"
-    SHARE_BUTTON_TEXT = "Hi.. 👋\nCheckout : @{username}\nFor search and download TouTube Videos"
-    SAVED_THUMB = "<b>✅ Thumbnail Saved Successfully</b>\n<code>This file will be used in next YouTube " \
-                  "downloads until you clear it !</code> "
-    WAIT_MESSAGE = "<code>Processing...</code>"
-    THUMB_CAPTION = "<code>This image is your current thumbnail, Tap </code><b> DEL THUMB </b><code> if you wish to " \
-                    "clear it !</code> "
-    NO_THUMB = "❌ Can't find any thumbnail in your local, Please upload an image to set it.."
-    DEL_THUMB_CNF = "Thumbnail Cleared Successfully ✅"
-    LINK_ERROR = "<b>Error : </b>\n\n<code>Some error occurred while the process !\n Plz try again later..</code>"
+    DEV_LINK = "https://t.me/the_panda_official"
+    DEV_DESCRIPTION = "Nome: The Panda | Telegram"
+    SHARE_BUTTON_TEXT = "Olá.. 👋\nSobre isso : @{username}\nPara pesquisar e baixar vídeos do YouTube"
+    SAVED_THUMB = "<b>✅ Miniatura salva com êxito</b>\n<code>Este arquivo será usado no próximo YouTube " \
+                  "downloads até que você limpá-lo !</code> "
+    WAIT_MESSAGE = "<code>Processamento...</code>"
+    THUMB_CAPTION = "<code>Esta imagem é a sua miniatura atual, toque em </code><b> DEL THUMB </b><code> se desejar " \
+                    "limpá-lo !</code> "
+    NO_THUMB = "❌ Não é possível encontrar nenhuma miniatura no seu local, faça o upload de uma imagem para defini-la.."
+    DEL_THUMB_CNF = "Thumbnail Limpo com êxito ✅"
+    LINK_ERROR = "<b>Error : </b>\n\n<code>Ocorreu algum erro durante o processo !\n por favor, tente novamente mais tarde..</code>"
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     FINISHED_PROGRESS_STR = "◼️"
     UN_FINISHED_PROGRESS_STR = "◻️"
