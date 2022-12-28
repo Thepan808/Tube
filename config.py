@@ -29,7 +29,7 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
     # superusers to broadcast messages & fetch subscribers count
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "737737727").split())
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "postgres://jhcpwcku:7S_eIC5qrzn4LlanVdRIz7PPLYlkeBTP@motty.db.elephantsql.com/jhcpwcku")
